@@ -1,0 +1,31 @@
+
+
+.square {
+    border: solid 1px black;
+    background: red;
+    position: absolute;
+    opacity: 85%;
+}
+
+body {
+    overflow: hidden;
+}
+
+.triangle {
+    width: 0px;
+    height: 0px;
+    border-right: solid transparent 1px;
+    border-bottom: solid blue 1px;
+    opacity: 85%;
+    border-left: solid transparent 1px;
+    position: absolute;
+}
+
+.circle {
+    border: solid 1px black;
+    border-radius: 100%;
+    background: green;
+    position: absolute;
+    border-radius: 100%;
+    opacity: 85%;
+}
